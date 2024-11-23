@@ -6,13 +6,7 @@ This device is an experimental project aiming to visualise sound physically in r
 
 ## Concept & Value
 
-Use this section to show us what your Website is about.   Include a Screenshot to the Website in this README file, link to the various frameworks you've used.  If you want to show off your website you can add a Gif of you interacting with your site.   Emojis are also fun to include as well 😄
 
-Look at some other Websites online in GitHub and see how they use the README File to showcase thier site.  Good examples are:
-
-- https://github.com/smaranjitghose/awesome-portfolio-websites
-- https://github.com/gohugoio/hugo    
-- https://github.com/academicpages/academicpages.github.io
 
 ##  Methodology 
 
@@ -22,11 +16,19 @@ Look at some other Websites online in GitHub and see how they use the README Fil
 ## How to install
 
 ### Results
-Just double click the "deploy.bat", the web could be created by your own computer, hopefully everything would be done
+
+The device works by pressing an illuminated push button. while pushed, a green LED light turns on indicating the active recording. Meanwhile, the disc begins to rotate on a steady pace via a continuous 360-degree servo and the microphone will input the recorded sound as a value between 500-900 (out of a possible 0-1023) to the Arduino. After processing the sound and extracting the amplitude value, it will then be mapped to an angle of 0-180 that will drive a 180-degree servo attached to a linear gear holding the pen making it move in a linear manner drawing on the rotary canvas. When the button is released, the LED light will go off and so will the servos and the result of the recorded sound will be a circular shape drawn on a removable disc. 
 
 ### Hindrances & Issues
-CD to the Project by: `cd ~/Desktop/casa0017-web-TiTan-6`
-Run the "deploy.sh", the lasted "main" branch would be download from git, and then it would build the web auto
+
+1. The noise produced by the servos affects the input of the microphone. 
+2. The pin can record only one feature of the sound (amplitude) and not different frequency levels. 
+
+## Further Developements
+How can the issues be fixed?
+What are the features that could be improved? How can they be improved?
+What are the missing features?
+
 
 ##  Contact Details
 
