@@ -1,9 +1,8 @@
 # CASA0016 - Reversed Gramophone - ReadMe File 
 
-## UCL Accommodation Compass
+## What is the Reversed Gramophone?
 
-This is the Final assessment template for CASA0017 - Please use this template and edit the relevant sections to personalise.
-This section has a short introduction to what the website is about and what research problem the site is solving.  Remeber this file showcases your website source code so use it to sell what you can do as a group or showcase in a future portfolio. 
+This device is an experimental project aiming to visualise sound physically in real-time. Although various software exists that visualizes sound using digital tools and algorithms, it has been a challenge to materialize the effect of sound and make it visible without using a digital screen. Many artists and technicians have stemmed projects with the same goal. An example would be the experiments with salt and water to make sound visible through cymatics. However, the momentary nature of the sound made it difficult to capture a continuous sound like a music peace for instance. Therefore, this project was introduced to capture not only the momentary notes and pitches of the sound in real-time but also to visualise the recorded waves on a histogram that could show the overall look of the sound in time. 
 
 ## Use this README File 
 
