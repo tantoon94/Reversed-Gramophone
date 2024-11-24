@@ -33,11 +33,11 @@ Connect the NeoPixel LED strip to the Arduino: Pin 5
 Connect the push button to the Arduino: Pin 2 (Use a pull-up resistor (10kΩ) between pin 2 and 5V)
 Upload the provided Arduino code to your board.
 
-### The Design 
+## The Design 
 
 The device works by pressing an illuminated push button. while pushed, a green LED light turns on indicating the active recording. Meanwhile, the disc begins to rotate steadily via a continuous 360-degree servo and the microphone will input the recorded sound as a value between 500-900 (out of a possible 0-1023) to the Arduino. After processing the sound and extracting the amplitude value, it will be mapped to an angle of 0-180 that will drive a 180-degree servo attached to a linear gear holding the pen making it move linearly drawing on the rotary canvas. When the button is released, the LED light will go off and so will the servos and the result of the recorded sound will be a circular shape drawn on a removable disc. 
 
-### Hindrances & Issues
+## Hindrances & Issues
 
 1. The noise the servos produce could affect the microphone's input. 
 2. The pin can record only one feature of the sound (amplitude) and not different frequency levels.
