@@ -18,7 +18,7 @@ This device is an experimental project aiming to visualise sound physically in r
 10 Power Supply (5V power supply is sufficient, Barrel Jack)
 11. Capacitors (for noise filtering and avoiding servo jittering)
 
-##Libraries
+## Libraries
 Make sure to include the following libraries in your Arduino IDE:
 
 Servo.h
