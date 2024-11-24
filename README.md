@@ -2,7 +2,7 @@
 
 ## What is the Reversed Gramophone?
 
-This device is an experimental project aiming to visualise sound physically in real-time. Although various software exists that visualizes sound using digital tools and algorithms, it has been a challenge to materialize the effect of sound and make it visible without using a digital screen. Many artists and technicians have stemmed projects with the same goal. An example would be the experiments with salt and water to make sound visible through cymatics. However, the momentary nature of the sound made capturing a continuous sound like a music peace difficult. Therefore, this project was introduced to capture not only the momentary notes and pitches of the sound in real-time but also to visualise the recorded waves on a histogram that could show the overall look of the sound in time. 
+This device is an experimental project aiming to visualise sound physically in real-time. Although various software exists that visualizes sound using digital tools and algorithms, it has been a challenge to materialize the effect of sound and make it visible without using a digital screen. Many artists and technicians have stemmed projects with the same goal. An example would be the experiments with salt, water and laser [https://gist.github.com/steventhebrave/7c16a72fb940b05b5e5218390418b5bf] to make sound visible through cymatics. However, the momentary nature of the sound made capturing a continuous sound like a music peace difficult. Therefore, this project was introduced to capture not only the momentary notes and pitches of the sound in real-time but also to visualise the recorded waves on a histogram that could show the overall look of the sound in time. 
 
 ## Components
 
