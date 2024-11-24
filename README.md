@@ -21,9 +21,9 @@ This device is an experimental project aiming to visualise sound physically in r
 ## Libraries
 Make sure to include the following libraries in your Arduino IDE:
 
-Servo.h
-Adafruit_NeoPixel.h
-ArduinoFFT.h
+1. Servo.h
+2. Adafruit_NeoPixel.h 
+3. ArduinoFFT.h
 
 ## Setup Instructions
 Connect the microphone sound sensor to the Arduino: A0
