@@ -26,12 +26,13 @@ Make sure to include the following libraries in your Arduino IDE:
 3. ArduinoFFT.h
 
 ## Setup Instructions
-Connect the microphone sound sensor to the Arduino: A0
-Connect the linear servo motor to the Arduino: Pin 9
-Connect the rotary servo motor to the Arduino: Pin 10
-Connect the NeoPixel LED strip to the Arduino: Pin 5
-Connect the push button to the Arduino: Pin 2 (Use a pull-up resistor (10kΩ) between pin 2 and 5V)
-Upload the provided Arduino code to your board.
+
+* Connect the microphone sound sensor to the Arduino: A0
+* Connect the linear servo motor to the Arduino: Pin 9
+* Connect the rotary servo motor to the Arduino: Pin 10
+* Connect the NeoPixel LED strip to the Arduino: Pin 5
+* Connect the push button to the Arduino: Pin 2 (Use a pull-up resistor (10kΩ) between pin 2 and 5V)
+* Upload the provided Arduino code to your board.
 
 ## The Design 
 
